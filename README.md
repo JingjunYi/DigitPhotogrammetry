@@ -1,15 +1,13 @@
-### 运行相关系数匹配+最小二乘平差：
+### Run NCC Match & LSM Match：
 ```
-1.解压Match.zip到Match文件夹，下载opencv4.5.4替换Match中的opencv4.5.4文件夹。
-2.运行程序请先基于Match.cpp构建整体工程sln并配置opencv c++(include及lib，dll)
-说明：Match.cpp为包含主函数的文件，
-	由于opencv4.5.4及相关编译文件太大因此只提交了cpp文件
+1.Extract Match.zip to Match folder, download opencv4.5.4 to replace opencv4.5.4 folder in Match.
+2.To run the program, please build the whole project sln based on Match.cpp and configure opencv c++(include and lib, dll) first.
+Note: Match.cpp is the file that contains the main function. Because opencv4.5.4 and related compiled files are too large, so only the cpp files are submitted.
 ```
-### 运行Sift
+### Run Sift
 ```
-1.解压Sift.zip到Sift文件
-2.请在虚拟环境中配置opencv，numpy，matplotlib，time(pip install)
-3.在命令行中执行python main.py运行特征匹配及特征提取
-说明：由于没有运用CUDA加速，运算速度非常慢，需要十几分钟左右，请耐心等待结果
-	如果需要查看中间结果如特征点提取结果，可以去掉相关cv2.imshow的注释
+1.Unzip Sift.zip to Sift file
+2.Please configure opencv, numpy, matplotlib, time(pip install) in the virtual environment
+3. Execute python main.py in the command line to run feature matching and feature extraction
+Note: Due to the lack of CUDA acceleration, the operation speed is very slow and takes about ten minutes, please be patient and wait for the result.If you need to see the intermediate results such as feature extraction results, you can remove the comments of cv2.imshow.
 ```
