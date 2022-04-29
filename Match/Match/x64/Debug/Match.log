@@ -1,0 +1,4 @@
+﻿  Match.cpp
+E:\Code\DigitPhotogrammetry\Match\Match\Match.cpp(47,160): warning C4305: “参数”: 从“double”到“float”截断
+E:\Code\DigitPhotogrammetry\Match\Match\Match.cpp(95,169): warning C4305: “参数”: 从“double”到“float”截断
+  Match.vcxproj -> E:\Code\DigitPhotogrammetry\Match\x64\Debug\Match.exe
